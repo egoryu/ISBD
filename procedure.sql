@@ -1,9 +1,9 @@
 --Процедура для добавления нового пользователя:
-CREATE OR REPLACE PROCEDURE add_user(login VARCHAR(50), age INT)
+CREATE OR REPLACE PROCEDURE add_user(new_login VARCHAR(50), new_age INT)
 AS $$
 BEGIN
     INSERT INTO "user" (login, age)
-    VALUES (login, age);
+    VALUES (new_login, new_age);
 END;
 $$ LANGUAGE plpgsql;
 
@@ -18,11 +18,11 @@ END;
 $$ LANGUAGE plpgsql;
 
 --Процедура для добавления нового предсказания цены акции:
-CREATE OR REPLACE PROCEDURE add_stock_prediction(stock_id INT, predicted_price DECIMAL, prediction_date DATE)
+CREATE OR REPLACE PROCEDURE add_stock_prediction(stocked_id INT, predicted_price DECIMAL, prediction_date DATE)
 AS $$
 BEGIN
-    INSERT INTO "stock_prediction" (stock_id, predicted_price, prediction_date)
-    VALUES (stock_id, predicted_price, prediction_date);
+    INSERT INTO "stock_predication" (stock_id, predict_price, date)
+    VALUES (stocked_id, predicted_price, prediction_date);
 END;
 $$ LANGUAGE plpgsql;
 
@@ -30,7 +30,7 @@ $$ LANGUAGE plpgsql;
 CREATE OR REPLACE PROCEDURE add_stock_category(category_name VARCHAR(50), parent_category_id INT DEFAULT NULL)
 AS $$
 BEGIN
-    INSERT INTO "stock_category" (name, parent_category_id)
+    INSERT INTO "stock_category" (name, stock_category_parent_id)
     VALUES (category_name, parent_category_id);
 END;
 $$ LANGUAGE plpgsql;
