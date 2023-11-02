@@ -1,9 +1,11 @@
 --Процедура для добавления нового пользователя:
-CREATE OR REPLACE PROCEDURE add_user(new_login VARCHAR(50), new_age INT)
+CREATE OR REPLACE PROCEDURE add_user(new_full_name varchar(80), new_login VARCHAR(50), new_age INT,
+                                     new_email varchar(50), new_password varchar(64), new_salt varchar(12),
+                                     new_country_id int)
 AS $$
 BEGIN
-    INSERT INTO "user" (login, age)
-    VALUES (new_login, new_age);
+    INSERT INTO "user" (full_name, login, age, email, password, salt, registration_date, country_id)
+    VALUES (new_full_name, new_login, new_age, new_email, new_password, new_salt, NOW(), new_country_id);
 END;
 $$ LANGUAGE plpgsql;
 
