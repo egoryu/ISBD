@@ -22,7 +22,7 @@ create table "user"
 (
     id                serial      PRIMARY KEY,
     full_name         varchar(80) NOT NULL,
-    age               smallint    NOT NULL CHECK (age >= 0),
+    age               smallint    NOT NULL CHECK (age >= 18),
     login             varchar(20) NOT NULL,
     email             varchar(50) NOT NULL,
     password          varchar(64) NOT NULL,
@@ -56,11 +56,11 @@ create table "portfolio"
     creation_date timestamp   NOT NULL
 );
 
-create table "stock category"
+create table "stock_category"
 (
     id                       serial      PRIMARY KEY,
     name                     varchar(50) NOT NULL,
-    stock_category_parent_id int         REFERENCES "stock category"(id) ON DELETE CASCADE ON UPDATE CASCADE
+    stock_category_parent_id int         REFERENCES "stock_category"(id) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
 create table "stock"
@@ -68,11 +68,11 @@ create table "stock"
     id          serial      PRIMARY KEY,
     name        varchar(50) NOT NULL,
     description varchar(200),
-    category_id int         NOT NULL REFERENCES "stock category"(id) ON DELETE CASCADE ON UPDATE CASCADE,
+    category_id int         NOT NULL REFERENCES "stock_category"(id) ON DELETE CASCADE ON UPDATE CASCADE,
     currency_id int         NOT NULL REFERENCES "currency"(id)       ON DELETE CASCADE ON UPDATE CASCADE
 );
 
-create table "trading history"
+create table "trading_history"
 (
     id        serial    PRIMARY KEY,
     user_id   int       NOT NULL REFERENCES "user"(id)  ON DELETE CASCADE ON UPDATE CASCADE,
@@ -83,7 +83,7 @@ create table "trading history"
     type      smallint  NOT NULL DEFAULT 0
 );
 
-create table "portfolio item"
+create table "portfolio_item"
 (
     id           serial PRIMARY KEY,
     portfolio_id int    NOT NULL REFERENCES "portfolio"(id) ON DELETE CASCADE ON UPDATE CASCADE,
@@ -91,7 +91,7 @@ create table "portfolio item"
     amount       int    NOT NULL CHECK (amount > 0)
 );
 
-create table "trading signal"
+create table "trading_signal"
 (
     id          serial    PRIMARY KEY,
     stock_id    int       NOT NULL REFERENCES "stock"(id) ON DELETE CASCADE ON UPDATE CASCADE,
@@ -100,7 +100,7 @@ create table "trading signal"
     type        smallint  NOT NULL DEFAULT 0
 );
 
-create table "stock price"
+create table "stock_price"
 (
     id       serial    PRIMARY KEY,
     stock_id int       NOT NULL REFERENCES "stock"(id) ON DELETE CASCADE ON UPDATE CASCADE,
@@ -108,7 +108,7 @@ create table "stock price"
     price    int       NOT NULL CHECK (price > 0)
 );
 
-create table "stock predication"
+create table "stock_predication"
 (
     id            serial    PRIMARY KEY,
     stock_id      int       NOT NULL REFERENCES "stock"(id) ON DELETE CASCADE ON UPDATE CASCADE,
@@ -116,19 +116,19 @@ create table "stock predication"
     predict_price int       NOT NULL CHECK (predict_price > 0)
 );
 
-create table "stock category property"
+create table "stock_category_property"
 (
     id                serial       PRIMARY KEY,
-    stock_category_id int          NOT NULL REFERENCES "stock category"(id),
+    stock_category_id int          NOT NULL REFERENCES "stock_category"(id),
     name              varchar(50)  NOT NULL,
     is_required       smallint     DEFAULT 0,
     description       varchar(200)
 );
 
-create table "stock property value"
+create table "stock_property_value"
 (
     id                         serial PRIMARY KEY,
-    stock_category_property_id int    NOT NULL REFERENCES "stock category property"(id) ON DELETE CASCADE ON UPDATE CASCADE,
+    stock_category_property_id int    NOT NULL REFERENCES "stock_category_property"(id) ON DELETE CASCADE ON UPDATE CASCADE,
     stock_id                   int    NOT NULL REFERENCES "stock"(id)                   ON DELETE CASCADE ON UPDATE CASCADE,
     value                      text   NOT NULL
 );

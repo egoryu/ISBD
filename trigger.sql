@@ -1,20 +1,3 @@
--- Триггер для проверки возраста пользователя
-CREATE OR REPLACE FUNCTION check_user_age()
-RETURNS TRIGGER AS $$
-BEGIN
-    IF NEW.age < 18 THEN
-        RAISE EXCEPTION 'User must be at least 18 years old';
-END IF;
-RETURN NEW;
-END;
-$$ LANGUAGE plpgsql;
-
-CREATE OR REPLACE TRIGGER check_user_age_trigger
-    BEFORE INSERT OR UPDATE ON "user"
-                         FOR EACH ROW
-                         EXECUTE FUNCTION check_user_age();
-
-
 -- Триггер для проверки наличия акций в портфеле
 CREATE OR REPLACE FUNCTION check_portfolio_item_amount()
 RETURNS TRIGGER AS $$
@@ -22,7 +5,7 @@ DECLARE
 total_amount INT;
 BEGIN
 SELECT SUM(amount) INTO total_amount
-FROM "portfolio item"
+FROM "portfolio_item"
 WHERE portfolio_id = NEW.portfolio_id;
 
 IF total_amount + NEW.amount > 100 THEN
@@ -33,7 +16,7 @@ END;
 $$ LANGUAGE plpgsql;
 
 CREATE OR REPLACE TRIGGER check_portfolio_item_amount_trigger
-    BEFORE INSERT OR UPDATE ON "portfolio item"
+    BEFORE INSERT OR UPDATE ON "portfolio_item"
                          FOR EACH ROW
                          EXECUTE FUNCTION check_portfolio_item_amount();
 
@@ -45,7 +28,7 @@ DECLARE
 stock_count INT;
 BEGIN
 SELECT COUNT(*) INTO stock_count
-FROM "stock price"
+FROM "stock_price"
 WHERE stock_id = NEW.stock_id;
 
 IF stock_count = 0 THEN
@@ -56,7 +39,7 @@ END;
 $$ LANGUAGE plpgsql;
 
 CREATE OR REPLACE TRIGGER check_stock_price_trigger
-    BEFORE INSERT OR UPDATE ON "trading history"
+    BEFORE INSERT OR UPDATE ON "trading_history"
                          FOR EACH ROW
                          EXECUTE FUNCTION check_stock_price();
 
@@ -102,10 +85,10 @@ BEGIN
     IF NEW.stock_category_parent_id IS NOT NULL THEN
         IF NOT EXISTS (
             SELECT 1
-            FROM "stock category"
+            FROM "stock_category"
             WHERE id = NEW.stock_category_parent_id
         ) THEN
-            RAISE EXCEPTION 'Parent stock category does not exist';
+            RAISE EXCEPTION 'Parent stock_category does not exist';
         END IF;
     END IF;
     RETURN NEW;
@@ -113,7 +96,7 @@ END;
 $$ LANGUAGE plpgsql;
 
 CREATE OR REPLACE TRIGGER check_stock_category_parent_trigger
-BEFORE INSERT OR UPDATE ON "stock category"
+BEFORE INSERT OR UPDATE ON "stock_category"
 FOR EACH ROW
 EXECUTE FUNCTION check_stock_category_parent();
 
@@ -123,7 +106,7 @@ RETURNS TRIGGER AS $$
 BEGIN
     IF NOT EXISTS (
         SELECT 1
-        FROM "stock price"
+        FROM "stock_price"
         WHERE stock_id = NEW.stock_id
     ) THEN
         RAISE EXCEPTION 'Stock price not available for prediction';
@@ -133,7 +116,7 @@ END;
 $$ LANGUAGE plpgsql;
 
 CREATE OR REPLACE TRIGGER check_stock_price_existence_trigger
-BEFORE INSERT OR UPDATE ON "stock predication"
+BEFORE INSERT OR UPDATE ON "stock_predication"
 FOR EACH ROW
 EXECUTE FUNCTION check_stock_price_existence();
 
@@ -144,7 +127,7 @@ DECLARE
     total_price INT;
 BEGIN
     SELECT SUM(amount * price) INTO total_price
-    FROM "trading history"
+    FROM "trading_history"
     WHERE user_id = NEW.user_id;
 
     IF total_price + (NEW.amount * NEW.price) > 1000000 THEN
@@ -155,6 +138,6 @@ END;
 $$ LANGUAGE plpgsql;
 
 CREATE OR REPLACE TRIGGER check_trading_history_total_price_trigger
-BEFORE INSERT OR UPDATE ON "trading history"
+BEFORE INSERT OR UPDATE ON "trading_history"
 FOR EACH ROW
 EXECUTE FUNCTION check_trading_history_total_price();

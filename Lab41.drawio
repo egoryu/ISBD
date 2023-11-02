@@ -1,1 +1,187 @@
-<mxGraphModel><root><mxCell id="0"/><mxCell id="1" parent="0"/></root></mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2023-11-02T17:46:46.895Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="22.0.8" etag="Zlzh9CQXlt3xYzRo65f1" type="device">
+  <diagram id="rPMs5cLc5XcDFoxW9uSj" name="Страница — 1">
+    <mxGraphModel dx="1912" dy="984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xqXwQFbX9UYPNsiNY6k--1" value="result" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xqXwQFbX9UYPNsiNY6k--2" value="&quot;Н_ЛЮДИ&quot;.&lt;span style=&quot;font-size:11.0pt;&lt;br/&gt;line-height:107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#C77DBB;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot; lang=&quot;RU&quot;&gt;&quot;ОТЧЕСТВО&quot;&lt;/span&gt;&lt;span style=&quot;font-size:11.0pt;&lt;br/&gt;line-height:107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#BCBEC4;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot; lang=&quot;RU&quot;&gt;, &quot;Н_ВЕДОМОСТИ&quot;.&lt;/span&gt;&lt;span style=&quot;font-size:11.0pt;&lt;br/&gt;line-height:107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#C77DBB;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot; lang=&quot;RU&quot;&gt;&quot;ДАТА&quot;&lt;/span&gt;&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#BCBEC4;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot; lang=&quot;RU&quot;&gt;, &quot;Н_СЕССИЯ&quot;.&lt;/span&gt;&lt;span style=&quot;font-size:11.0pt;&lt;br/&gt;line-height:107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#C77DBB;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot; lang=&quot;RU&quot;&gt;&quot;УЧГОД&quot;&amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="210" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xqXwQFbX9UYPNsiNY6k--3" value="&quot;Н_ВЕДОМОСТИ&quot;.&lt;span style=&quot;font-size:11.0pt;&lt;br/&gt;line-height:107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#C77DBB;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot; lang=&quot;RU&quot;&gt;&quot;ДАТА&quot;&lt;/span&gt;&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#BCBEC4;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot; lang=&quot;RU&quot;&gt;::&lt;/span&gt;&lt;span style=&quot;font-size:11.0pt;line-height:107%;font-family:&lt;br/&gt;&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:&lt;br/&gt;Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;&lt;br/&gt;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#CF8E6D;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot;&gt;DATE&lt;/span&gt;&lt;span style=&quot;font-size:11.0pt;line-height:107%;font-family:&lt;br/&gt;&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:&lt;br/&gt;Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;&lt;br/&gt;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#CF8E6D;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-size:11.0pt;line-height:107%;&lt;br/&gt;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:&lt;br/&gt;Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;&lt;br/&gt;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#BCBEC4;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot; lang=&quot;RU&quot;&gt;&amp;lt; &lt;/span&gt;&lt;span style=&quot;font-size:11.0pt;line-height:107%;&lt;br/&gt;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:&lt;br/&gt;Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;&lt;br/&gt;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#6AAB73;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot; lang=&quot;RU&quot;&gt;&#39;2022-06-08&#39;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="290" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xqXwQFbX9UYPNsiNY6k--4" value="&quot;Н_ЛЮДИ&quot;.&lt;span style=&quot;font-size:11.0pt;&lt;br/&gt;line-height:107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#C77DBB;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot; lang=&quot;RU&quot;&gt;&quot;ОТЧЕСТВО&quot; &lt;/span&gt;&lt;span style=&quot;font-size:11.0pt;&lt;br/&gt;line-height:107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#BCBEC4;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot; lang=&quot;RU&quot;&gt;= &lt;/span&gt;&lt;span style=&quot;font-size:11.0pt;line-height:107%;&lt;br/&gt;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:&lt;br/&gt;Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;&lt;br/&gt;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#6AAB73;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot; lang=&quot;RU&quot;&gt;&#39;Сергеевич&#39;&amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="370" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xqXwQFbX9UYPNsiNY6k--5" value="&quot;Н_ЛЮДИ&quot;.&lt;span style=&quot;font-size:11.0pt;&lt;br/&gt;line-height:107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#C77DBB;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot; lang=&quot;RU&quot;&gt;&quot;ИД&quot;&lt;/span&gt;&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#BCBEC4;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot; lang=&quot;RU&quot;&gt;=&quot;Н_ВЕДОМОСТИ&quot;.&lt;/span&gt;&lt;span style=&quot;font-size:11.0pt;&lt;br/&gt;line-height:107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#C77DBB;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot; lang=&quot;RU&quot;&gt;&quot;ЧЛВК_ИД&quot;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="128" y="554.5" width="286" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xqXwQFbX9UYPNsiNY6k--6" value="&quot;Н_ЛЮДИ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="660" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xqXwQFbX9UYPNsiNY6k--7" value="&quot;Н_ВЕДОМОСТИ&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="660" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xqXwQFbX9UYPNsiNY6k--8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xqXwQFbX9UYPNsiNY6k--6" target="xqXwQFbX9UYPNsiNY6k--5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xqXwQFbX9UYPNsiNY6k--9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xqXwQFbX9UYPNsiNY6k--7" target="xqXwQFbX9UYPNsiNY6k--5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="225" y="540" as="sourcePoint" />
+            <mxPoint x="395" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xqXwQFbX9UYPNsiNY6k--10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xqXwQFbX9UYPNsiNY6k--5" target="xqXwQFbX9UYPNsiNY6k--27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="555" y="540" as="sourcePoint" />
+            <mxPoint x="395" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xqXwQFbX9UYPNsiNY6k--11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xqXwQFbX9UYPNsiNY6k--4" target="xqXwQFbX9UYPNsiNY6k--3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="379.5" y="370" as="sourcePoint" />
+            <mxPoint x="379.5" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xqXwQFbX9UYPNsiNY6k--12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xqXwQFbX9UYPNsiNY6k--3" target="xqXwQFbX9UYPNsiNY6k--2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="395" y="380" as="sourcePoint" />
+            <mxPoint x="395" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xqXwQFbX9UYPNsiNY6k--13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="xqXwQFbX9UYPNsiNY6k--2" target="xqXwQFbX9UYPNsiNY6k--1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="220" as="sourcePoint" />
+            <mxPoint x="405" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xqXwQFbX9UYPNsiNY6k--27" value="&quot;Н_ЛЮДИ&quot;.&lt;span style=&quot;font-size:11.0pt;&lt;br/&gt;line-height:107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#C77DBB;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot; lang=&quot;RU&quot;&gt;&quot;ИД&quot;&lt;/span&gt;&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#BCBEC4;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot; lang=&quot;RU&quot;&gt;=&quot;Н_СЕССИЯ&quot;.&lt;/span&gt;&lt;span style=&quot;font-size:11.0pt;&lt;br/&gt;line-height:107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#C77DBB;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot; lang=&quot;RU&quot;&gt;&quot;ЧЛВК_ИД&quot;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="460" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xqXwQFbX9UYPNsiNY6k--28" value="&quot;Н_СЕССИЯ&quot;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="555" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xqXwQFbX9UYPNsiNY6k--30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xqXwQFbX9UYPNsiNY6k--28" target="xqXwQFbX9UYPNsiNY6k--27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="281" y="565" as="sourcePoint" />
+            <mxPoint x="395" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xqXwQFbX9UYPNsiNY6k--31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xqXwQFbX9UYPNsiNY6k--27" target="xqXwQFbX9UYPNsiNY6k--4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="291" y="575" as="sourcePoint" />
+            <mxPoint x="405" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xqXwQFbX9UYPNsiNY6k--32" value="result" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1125" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xqXwQFbX9UYPNsiNY6k--33" value="&quot;Н_ЛЮДИ&quot;.&lt;span style=&quot;font-size:11.0pt;&lt;br/&gt;line-height:107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#C77DBB;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot; lang=&quot;RU&quot;&gt;&quot;ОТЧЕСТВО&quot;&lt;/span&gt;&lt;span style=&quot;font-size:11.0pt;&lt;br/&gt;line-height:107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#BCBEC4;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot; lang=&quot;RU&quot;&gt;, &quot;Н_ВЕДОМОСТИ&quot;.&lt;/span&gt;&lt;span style=&quot;font-size:11.0pt;&lt;br/&gt;line-height:107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#C77DBB;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot; lang=&quot;RU&quot;&gt;&quot;ДАТА&quot;&lt;/span&gt;&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#BCBEC4;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot; lang=&quot;RU&quot;&gt;, &quot;Н_СЕССИЯ&quot;.&lt;/span&gt;&lt;span style=&quot;font-size:11.0pt;&lt;br/&gt;line-height:107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#C77DBB;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot; lang=&quot;RU&quot;&gt;&quot;УЧГОД&quot;&amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="340" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xqXwQFbX9UYPNsiNY6k--34" value="&quot;Н_ВЕДОМОСТИ&quot;.&lt;span style=&quot;font-size:11.0pt;&lt;br/&gt;line-height:107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#C77DBB;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot; lang=&quot;RU&quot;&gt;&quot;ДАТА&quot;&lt;/span&gt;&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#BCBEC4;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot; lang=&quot;RU&quot;&gt;::&lt;/span&gt;&lt;span style=&quot;font-size:11.0pt;line-height:107%;font-family:&lt;br/&gt;&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:&lt;br/&gt;Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;&lt;br/&gt;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#CF8E6D;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot;&gt;DATE&lt;/span&gt;&lt;span style=&quot;font-size:11.0pt;line-height:107%;font-family:&lt;br/&gt;&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:&lt;br/&gt;Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;&lt;br/&gt;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#CF8E6D;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-size:11.0pt;line-height:107%;&lt;br/&gt;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:&lt;br/&gt;Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;&lt;br/&gt;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#BCBEC4;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot; lang=&quot;RU&quot;&gt;&amp;lt; &lt;/span&gt;&lt;span style=&quot;font-size:11.0pt;line-height:107%;&lt;br/&gt;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:&lt;br/&gt;Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;&lt;br/&gt;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#6AAB73;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot; lang=&quot;RU&quot;&gt;&#39;2022-06-08&#39;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1128" y="650" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xqXwQFbX9UYPNsiNY6k--35" value="&quot;Н_ЛЮДИ&quot;.&lt;span style=&quot;font-size:11.0pt;&lt;br/&gt;line-height:107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#C77DBB;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot; lang=&quot;RU&quot;&gt;&quot;ОТЧЕСТВО&quot; &lt;/span&gt;&lt;span style=&quot;font-size:11.0pt;&lt;br/&gt;line-height:107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#BCBEC4;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot; lang=&quot;RU&quot;&gt;= &lt;/span&gt;&lt;span style=&quot;font-size:11.0pt;line-height:107%;&lt;br/&gt;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:&lt;br/&gt;Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;&lt;br/&gt;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#6AAB73;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot; lang=&quot;RU&quot;&gt;&#39;Сергеевич&#39;&amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="650" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xqXwQFbX9UYPNsiNY6k--36" value="&quot;Н_ЛЮДИ&quot;.&lt;span style=&quot;font-size:11.0pt;&lt;br/&gt;line-height:107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#C77DBB;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot; lang=&quot;RU&quot;&gt;&quot;ИД&quot;&lt;/span&gt;&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#BCBEC4;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot; lang=&quot;RU&quot;&gt;=&quot;Н_ВЕДОМОСТИ&quot;.&lt;/span&gt;&lt;span style=&quot;font-size:11.0pt;&lt;br/&gt;line-height:107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#C77DBB;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot; lang=&quot;RU&quot;&gt;&quot;ЧЛВК_ИД&quot;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="555" width="286" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xqXwQFbX9UYPNsiNY6k--37" value="&quot;Н_ЛЮДИ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="800" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xqXwQFbX9UYPNsiNY6k--38" value="&quot;Н_ВЕДОМОСТИ&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1143" y="800" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xqXwQFbX9UYPNsiNY6k--39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xqXwQFbX9UYPNsiNY6k--37" target="xqXwQFbX9UYPNsiNY6k--49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1100" y="420" as="sourcePoint" />
+            <mxPoint x="1150" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xqXwQFbX9UYPNsiNY6k--41" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xqXwQFbX9UYPNsiNY6k--36" target="xqXwQFbX9UYPNsiNY6k--45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1265" y="540" as="sourcePoint" />
+            <mxPoint x="1105" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xqXwQFbX9UYPNsiNY6k--42" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xqXwQFbX9UYPNsiNY6k--38" target="xqXwQFbX9UYPNsiNY6k--50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1089.5" y="370" as="sourcePoint" />
+            <mxPoint x="1089.5" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xqXwQFbX9UYPNsiNY6k--44" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="xqXwQFbX9UYPNsiNY6k--33" target="xqXwQFbX9UYPNsiNY6k--32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1090" y="220" as="sourcePoint" />
+            <mxPoint x="1115" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xqXwQFbX9UYPNsiNY6k--45" value="&quot;Н_ЛЮДИ&quot;.&lt;span style=&quot;font-size:11.0pt;&lt;br/&gt;line-height:107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#C77DBB;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot; lang=&quot;RU&quot;&gt;&quot;ИД&quot;&lt;/span&gt;&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#BCBEC4;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot; lang=&quot;RU&quot;&gt;=&quot;Н_СЕССИЯ&quot;.&lt;/span&gt;&lt;span style=&quot;font-size:11.0pt;&lt;br/&gt;line-height:107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;color:#C77DBB;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:&lt;br/&gt;AR-SA&quot; lang=&quot;RU&quot;&gt;&quot;ЧЛВК_ИД&quot;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="430" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xqXwQFbX9UYPNsiNY6k--46" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="xqXwQFbX9UYPNsiNY6k--55" source="xqXwQFbX9UYPNsiNY6k--48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1315" y="555" as="sourcePoint" />
+            <mxPoint x="1105" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xqXwQFbX9UYPNsiNY6k--48" value="&quot;Н_СЕССИЯ&quot;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="585" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xqXwQFbX9UYPNsiNY6k--49" value="&quot;Н_ЛЮДИ&quot;.&quot;ОТЧЕСТВО&quot;, &quot;Н_ЛЮДИ&quot;.&quot;ИД&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="720" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xqXwQFbX9UYPNsiNY6k--50" value="&quot;Н_ВЕДОМОСТИ&quot;.&lt;span style=&quot;border-color: var(--border-color); font-size: 11pt; font-family: Calibri, sans-serif;&quot; lang=&quot;RU&quot;&gt;&quot;ДАТА&quot;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 11pt; font-family: Calibri, sans-serif;&quot; lang=&quot;RU&quot;&gt;,&lt;/span&gt;&quot;Н_ВЕДОМОСТИ&quot;.&lt;span style=&quot;border-color: var(--border-color); font-size: 11pt; font-family: Calibri, sans-serif;&quot; lang=&quot;RU&quot;&gt;&quot;ЧЛВК_ИД&quot;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1106" y="720" width="344" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xqXwQFbX9UYPNsiNY6k--51" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xqXwQFbX9UYPNsiNY6k--49" target="xqXwQFbX9UYPNsiNY6k--35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="895" y="810" as="sourcePoint" />
+            <mxPoint x="895" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xqXwQFbX9UYPNsiNY6k--52" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="xqXwQFbX9UYPNsiNY6k--50" target="xqXwQFbX9UYPNsiNY6k--34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1280" y="730" as="sourcePoint" />
+            <mxPoint x="1288" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xqXwQFbX9UYPNsiNY6k--53" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xqXwQFbX9UYPNsiNY6k--35" target="xqXwQFbX9UYPNsiNY6k--36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="895" y="730" as="sourcePoint" />
+            <mxPoint x="895" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xqXwQFbX9UYPNsiNY6k--54" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xqXwQFbX9UYPNsiNY6k--34" target="xqXwQFbX9UYPNsiNY6k--36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="905" y="740" as="sourcePoint" />
+            <mxPoint x="905" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xqXwQFbX9UYPNsiNY6k--55" value="&quot;Н_СЕССИЯ&quot;.&lt;span style=&quot;border-color: var(--border-color); font-size: 11pt; font-family: Calibri, sans-serif;&quot; lang=&quot;RU&quot;&gt;&quot;ЧЛВК_ИД&quot;,&amp;nbsp;&lt;/span&gt;&quot;Н_СЕССИЯ&quot;.&lt;span style=&quot;border-color: var(--border-color); font-size: 11pt; font-family: Calibri, sans-serif;&quot; lang=&quot;RU&quot;&gt;&quot;УЧГОД&quot;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1226.5" y="524.5" width="299" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xqXwQFbX9UYPNsiNY6k--56" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xqXwQFbX9UYPNsiNY6k--55" target="xqXwQFbX9UYPNsiNY6k--45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1053" y="565" as="sourcePoint" />
+            <mxPoint x="1165" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xqXwQFbX9UYPNsiNY6k--58" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="xqXwQFbX9UYPNsiNY6k--45" target="xqXwQFbX9UYPNsiNY6k--33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1165" y="350" as="sourcePoint" />
+            <mxPoint x="1165" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

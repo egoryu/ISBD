@@ -31,8 +31,8 @@ CREATE OR REPLACE PROCEDURE delete_user(user_id INT)
 AS $$
 BEGIN
     DELETE FROM "user" WHERE id = user_id;
-    DELETE FROM "portfolio item" WHERE user_id = user_id;
-    DELETE FROM "trading history" WHERE user_id = user_id;
+    DELETE FROM "portfolio_item" WHERE user_id = user_id;
+    DELETE FROM "trading_history" WHERE user_id = user_id;
 END;
 $$ LANGUAGE plpgsql;
 
@@ -40,7 +40,7 @@ $$ LANGUAGE plpgsql;
 CREATE OR REPLACE PROCEDURE add_stock_category(category_name VARCHAR(50), parent_category_id INT DEFAULT NULL)
 AS $$
 BEGIN
-    INSERT INTO "stock category" (name, parent_category_id)
+    INSERT INTO "stock_category" (name, parent_category_id)
     VALUES (category_name, parent_category_id);
 END;
 $$ LANGUAGE plpgsql;

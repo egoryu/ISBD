@@ -5,7 +5,7 @@ DECLARE
     average_price DECIMAL;
 BEGIN
     SELECT AVG(price) INTO average_price
-    FROM "stock price" sp
+    FROM "stock_price" sp
     INNER JOIN "stock" s ON sp.stock_id = s.id
     WHERE s.category_id = category_id;
 
@@ -22,7 +22,7 @@ RETURNS TABLE (
 BEGIN
     RETURN QUERY
     SELECT p.stock_id, s.name
-    FROM "portfolio item" p
+    FROM "portfolio_item" p
     INNER JOIN "stock" s ON p.stock_id = s.id
     WHERE p.user_id = user_id;
 END;
@@ -35,8 +35,8 @@ DECLARE
     total_value DECIMAL;
 BEGIN
     SELECT SUM(p.amount * sp.price) INTO total_value
-    FROM "portfolio item" p
-    INNER JOIN "stock price" sp ON p.stock_id = sp.stock_id
+    FROM "portfolio_item" p
+    INNER JOIN "stock_price" sp ON p.stock_id = sp.stock_id
     WHERE p.user_id = user_id;
 
     RETURN total_value;
@@ -66,7 +66,7 @@ DECLARE
     stock_count INT;
 BEGIN
     SELECT COUNT(*) INTO stock_count
-    FROM "portfolio item"
+    FROM "portfolio_item"
     WHERE user_id = user_id;
 
     RETURN stock_count;

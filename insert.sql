@@ -39,7 +39,7 @@ INSERT INTO "portfolio" (id, user_id, currency_id, name, creation_date)
 VALUES
     (1, 1, 1, 'First', '2023-10-17 19:56:00');
 
-INSERT INTO "stock category" (id, name, stock_category_parent_id)
+INSERT INTO "stock_category" (id, name, stock_category_parent_id)
 VALUES
     (1, 'root', NULL),
     (2, 'shares', 1);
@@ -48,24 +48,24 @@ INSERT INTO "stock" (id, name, description, category_id, currency_id)
 VALUES
     (1, 'TCS Group', 'Tinkoff shares', 2, 1);
 
-INSERT INTO "stock price" (id, stock_id, date, price)
+INSERT INTO "stock_price" (id, stock_id, date, price)
 VALUES
     (1, 1, '2023-10-17 20:25:00', 352200),
     (2, 1, '2023-10-17 20:26:00', 352250);
 
-INSERT INTO "stock predication" (id, stock_id, date, predict_price)
+INSERT INTO "stock_predication" (id, stock_id, date, predict_price)
 VALUES
     (1, 1, '2023-10-17 20:25:00', 352200);
 
-INSERT INTO "trading history" (id, user_id, stock_id, sell_time, amount, price, type)
+INSERT INTO "trading_history" (id, user_id, stock_id, sell_time, amount, price, type)
 VALUES
     (1, 1, 1, '2023-10-17 20:25:00', 20, 352200, 0),
     (2, 1, 1, '2023-10-17 20:25:00', 10, 352260, 1);
 
-INSERT INTO "portfolio item" (id, portfolio_id, stock_id, amount)
+INSERT INTO "portfolio_item" (id, portfolio_id, stock_id, amount)
 VALUES
     (1, 1, 1, 100);
 
-INSERT INTO "trading signal" (id, stock_id, signal_time, price, type)
+INSERT INTO "trading_signal" (id, stock_id, signal_time, price, type)
 VALUES
     (1, 1, '2023-10-17 20:25:00', 352200, 1);
