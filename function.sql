@@ -53,7 +53,7 @@ RETURNS TABLE (
 BEGIN
     RETURN QUERY
     SELECT sp.stock_id, s.name, sp.predicted_price
-    FROM "stock prediction" sp
+    FROM "stock_prediction" sp
     INNER JOIN "stock" s ON sp.stock_id = s.id
     WHERE sp.prediction_date = prediction_date;
 END;

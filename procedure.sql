@@ -21,18 +21,8 @@ $$ LANGUAGE plpgsql;
 CREATE OR REPLACE PROCEDURE add_stock_prediction(stock_id INT, predicted_price DECIMAL, prediction_date DATE)
 AS $$
 BEGIN
-    INSERT INTO "stock prediction" (stock_id, predicted_price, prediction_date)
+    INSERT INTO "stock_prediction" (stock_id, predicted_price, prediction_date)
     VALUES (stock_id, predicted_price, prediction_date);
-END;
-$$ LANGUAGE plpgsql;
-
---Процедура для удаления пользователя и связанных с ним записей:
-CREATE OR REPLACE PROCEDURE delete_user(user_id INT)
-AS $$
-BEGIN
-    DELETE FROM "user" WHERE id = user_id;
-    DELETE FROM "portfolio_item" WHERE user_id = user_id;
-    DELETE FROM "trading_history" WHERE user_id = user_id;
 END;
 $$ LANGUAGE plpgsql;
 
