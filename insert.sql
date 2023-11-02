@@ -41,12 +41,15 @@ VALUES
 
 INSERT INTO "stock_category" (id, name, stock_category_parent_id)
 VALUES
-    (1, 'root', NULL),
-    (2, 'shares', 1);
+    (1, 'stock', NULL),
+    (2, 'Russian Market', 1),
+    (3, 'IT Company', 2);
+
 
 INSERT INTO "stock" (id, name, description, category_id, currency_id)
 VALUES
-    (1, 'TCS Group', 'Tinkoff shares', 2, 1);
+    (1, 'TCS Group', 'Tinkoff shares', 3, 1),
+    (2, 'Ozon', 'Ozon shares', 3, 1);
 
 INSERT INTO "stock_price" (id, stock_id, date, price)
 VALUES
