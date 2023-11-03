@@ -130,8 +130,8 @@ BEGIN
     FROM "trading_history"
     WHERE user_id = NEW.user_id;
 
-    IF total_price + (NEW.amount * NEW.price) > 1000000 THEN
-        RAISE EXCEPTION 'Total trading value exceeds the limit of 1,000,000';
+    IF total_price + (NEW.amount * NEW.price) > 1000000000 THEN
+        RAISE EXCEPTION 'Total trading value exceeds the limit of 10,000,000';
     END IF;
     RETURN NEW;
 END;

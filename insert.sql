@@ -10,7 +10,7 @@ VALUES
     (1, 'VK', 'Social network'),
     (2, 'Yandex', 'Browser'),
     (3, 'Tinkoff', 'Bank'),
-    (4, 'Ozone', 'Market');
+    (4, 'Ozon', 'Market');
 
 INSERT INTO "country_company" (company_id, country_id)
 VALUES
@@ -41,15 +41,14 @@ VALUES
 
 INSERT INTO "stock_category" (id, name, stock_category_parent_id)
 VALUES
-    (1, 'stock', NULL),
-    (2, 'Russian Market', 1),
-    (3, 'IT Company', 2);
-
+    (1, 'root', NULL),
+    (2, 'shares', 1),
+    (3, 'russian market', 2),
+    (4, 'IT sector', 3);
 
 INSERT INTO "stock" (id, name, description, category_id, currency_id)
 VALUES
-    (1, 'TCS Group', 'Tinkoff shares', 3, 1),
-    (2, 'Ozon', 'Ozon shares', 3, 1);
+    (1, 'TCS Group', 'Tinkoff shares', 4, 1);
 
 INSERT INTO "stock_price" (id, stock_id, date, price)
 VALUES
@@ -72,3 +71,13 @@ VALUES
 INSERT INTO "trading_signal" (id, stock_id, signal_time, price, type)
 VALUES
     (1, 1, '2023-10-17 20:25:00', 352200, 1);
+
+INSERT INTO "stock_category_property" (id, stock_category_id, name, is_required, description)
+VALUES
+    (1, 2, 'year', 1, 'year of incorporation'),
+    (2, 2, 'capitalization', 1, 'company capitalization');
+
+INSERT INTO "stock_property_value" (id, stock_category_property_id, stock_id, value)
+VALUES
+    (1, 1, 1, '2000'),
+    (5, 2, 1, '137,317,438,844');
